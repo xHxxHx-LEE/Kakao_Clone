@@ -1,0 +1,32 @@
+.setting-list:last-child {
+    margin: 40px 0;
+    border-top: var(--main-border);
+}
+
+.setting-list:last-child .settings__setting:first-child {
+    padding-top: 40px;
+}
+
+.settings__setting {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.03);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings__setting i {
+    /* opacity: 0; */
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+.settings__setting-column {
+    position: relative;
+}
+
+.settings_setting-column_notification {
+    left: 100px;
+    top: -5px;
+}
